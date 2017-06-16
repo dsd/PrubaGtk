@@ -17,7 +17,7 @@ etiqueta = Gtk.Label("Hola amigos")
 etiqueta.show()
 caja.pack_start(etiqueta, True, True, 0)
 
-boton = Gtk.Button("este es el texto")
+boton = Gtk.Button("Salir")
 boton.show()
 boton.connect("clicked", Gtk.main_quit)
 caja.pack_start(boton, False, False, 0)
